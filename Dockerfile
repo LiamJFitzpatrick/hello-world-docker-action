@@ -5,4 +5,4 @@ FROM python:3.13.2-alpine3.21
 COPY entrypoint.py /entrypoint.py
 
 # Code file to execute when the docker container starts up (`entrypoint.sh`)
-ENTRYPOINT ["python /entrypoint.py"]
+ENTRYPOINT ["python", "/entrypoint.py"]
